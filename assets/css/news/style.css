@@ -1,0 +1,108 @@
+
+/* :: 5.0 Breaking News Area CSS */
+.breaking-news-area {
+  position: relative;
+  z-index: 1;
+  padding: 35px 4%;
+  background-color: #f0f4f8;
+  margin: 0 20px 20px; }
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .breaking-news-area {
+      padding: 20px 1%; } }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .breaking-news-area {
+      padding: 20px 1%; } }
+  @media only screen and (max-width: 767px) {
+    .breaking-news-area {
+      padding: 20px 1%; } }
+  .breaking-news-area .breaking-news-ticker {
+    position: relative;
+    z-index: 1; }
+    .breaking-news-area .breaking-news-ticker .title {
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 180px;
+      flex: 0 0 180px;
+      max-width: 180px;
+      width: 180px;
+      background-color: #ef1b48;
+      height: 55px; }
+      @media only screen and (min-width: 768px) and (max-width: 991px) {
+        .breaking-news-area .breaking-news-ticker .title {
+          -webkit-box-flex: 0;
+          -ms-flex: 0 0 150px;
+          flex: 0 0 150px;
+          max-width: 150px;
+          width: 150px; } }
+      @media only screen and (max-width: 767px) {
+        .breaking-news-area .breaking-news-ticker .title {
+          -webkit-box-flex: 0;
+          -ms-flex: 0 0 70px;
+          flex: 0 0 70px;
+          max-width: 70px;
+          width: 70px;
+          height: 40px; } }
+      @media only screen and (min-width: 480px) and (max-width: 767px) {
+        .breaking-news-area .breaking-news-ticker .title {
+          -webkit-box-flex: 0;
+          -ms-flex: 0 0 100px;
+          flex: 0 0 100px;
+          max-width: 100px;
+          width: 100px; } }
+      .breaking-news-area .breaking-news-ticker .title h6 {
+        font-size: 18px;
+        margin-bottom: 0;
+        line-height: 1;
+        color: #ffffff;
+        text-align: center;
+        line-height: 55px; }
+        @media only screen and (max-width: 767px) {
+          .breaking-news-area .breaking-news-ticker .title h6 {
+            line-height: 40px;
+            font-size: 12px; } }
+    .breaking-news-area .breaking-news-ticker .ticker {
+      width: 100%;
+      text-align: left;
+      position: relative;
+      overflow: hidden;
+      padding: 0 20px;
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 calc(100% - 180px);
+      flex: 0 0 calc(100% - 180px);
+      max-width: calc(100% - 180px);
+      width: calc(100% - 180px); }
+      @media only screen and (max-width: 767px) {
+        .breaking-news-area .breaking-news-ticker .ticker {
+          padding: 0 10px;
+          -webkit-box-flex: 0;
+          -ms-flex: 0 0 calc(100% - 70px);
+          flex: 0 0 calc(100% - 70px);
+          max-width: calc(100% - 70px);
+          width: calc(100% - 70px); } }
+      @media only screen and (min-width: 480px) and (max-width: 767px) {
+        .breaking-news-area .breaking-news-ticker .ticker {
+          padding: 0 10px;
+          -webkit-box-flex: 0;
+          -ms-flex: 0 0 calc(100% - 100px);
+          flex: 0 0 calc(100% - 100px);
+          max-width: calc(100% - 100px);
+          width: calc(100% - 100px); } }
+      .breaking-news-area .breaking-news-ticker .ticker ul {
+        width: 100%;
+        position: relative;
+        z-index: 1; }
+        .breaking-news-area .breaking-news-ticker .ticker ul li {
+          display: none;
+          width: 100%; }
+          .breaking-news-area .breaking-news-ticker .ticker ul li a {
+            display: block;
+            font-size: 16px;
+            color: #404040;
+            height: 38px;
+            line-height: 38px; }
+            @media only screen and (max-width: 767px) {
+              .breaking-news-area .breaking-news-ticker .ticker ul li a {
+                font-size: 12px; } }
+            .breaking-news-area .breaking-news-ticker .ticker ul li a:hover, .breaking-news-area .breaking-news-ticker .ticker ul li a:focus {
+              color: #ef1b48; }
+
+

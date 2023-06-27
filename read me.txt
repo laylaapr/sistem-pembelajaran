@@ -1,0 +1,19 @@
+aktor : (Hijau dan Orange)
+umum
+*beranda
+*profil 
+*kontak kami
+*berita/artikel/informasi
+*pendaftaran
+
+admin TPQ
+*melihat pendaftaran 
+*olah informasi 
+
+admin TK
+*melihat pendaftaran 
+*olah informasi 
+
+admin SD
+*melihat pendaftaran 
+*olah informasi 
